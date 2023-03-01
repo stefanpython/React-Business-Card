@@ -7,11 +7,7 @@ import Footer from "../components/Footer";
 function App() {
   return (
     <div className="App">
-      <h1>Hell React World!</h1>
       <Info />
-      <About />
-      <Interests />
-      <Footer />
     </div>
   );
 }

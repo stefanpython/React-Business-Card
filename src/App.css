@@ -1,0 +1,86 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  background-color: #f5f5f5;
+  margin-top: 90px;
+  border-radius: 10px;
+}
+
+.title {
+  color: #f47d27;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.card-img {
+  width: 300px;
+  border-radius: 13px 13px 0px 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-git {
+  font-size: 1em;
+}
+
+.email-btn {
+  margin-top: 20px;
+  width: 235px;
+  height: 35px;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex; /* use flexbox to align the image and text */
+  align-items: center; /* center the items vertically */
+  justify-content: center;
+  gap: 10px;
+  margin-left: 30px;
+}
+
+.about-info,
+.interests-info {
+  margin-top: -15px;
+  font-size: 10px;
+  text-align: start;
+  line-height: 150%;
+}
+
+.card-about,
+.card-interests {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 33px;
+}
+
+.card-about h3,
+.card-interests h3 {
+  display: flex;
+}
+
+.card-interests {
+  margin-top: -10px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d5d4d8;
+  height: 50px;
+  margin-top: 31px;
+  border-radius: 0 0 10px 10px;
+}
+
+.card-footer > img {
+  padding: 0 10px;
+  height: 25px;
+}
