@@ -5,7 +5,7 @@ import Footer from "./Footer";
 export default function Info() {
   return (
     <div className="card">
-      <img className="card-img" src="images/me.jpg" alt="John" />
+      <img className="card-img" src="./dist/images/me.jpg" alt="John" />
 
       <div className="info-content">
         <h1>Stefan Andrei</h1>
@@ -15,7 +15,7 @@ export default function Info() {
         </a>
 
         <button className="email-btn">
-          <img src="images/email.png" alt="Email" />
+          <img src="./dist/images/email.png" alt="Email" />
           Email
         </button>
       </div>
